@@ -14,3 +14,15 @@ var smartPhones = [
     { name: 'Galaxy Note 5', price: 489 } 
 ];
 console.log(smartPhones.map(smartPhone => smartPhone.price)); 
+
+// bài 3
+let foo = (x,y,z) => {
+	console.log( x, y, z );
+}
+foo = () => {
+	alert('Hello')
+}
+foo = (a,b) =>{
+	let m = a+b*100
+	return m
+}
